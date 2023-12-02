@@ -2,9 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Discover my portfolio showcasing diverse projects in web development."
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Miera Azmi</title>
+    <title>Front-End Developer | Miera Azmi</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,7 +20,9 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Miera Azmi</a>
+        <span class="fw-bold">
+          <a class="navbar-brand" href="index.html" title="Hi!">Miera Azmi</a>
+        </span>
         <button
           class="navbar-toggler"
           type="button"
@@ -25,21 +31,36 @@
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          title="Expand"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                title="Home"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Me</a>
+              <a
+                class="nav-link"
+                href="about.html"
+                title="See my work in detail"
+                >About Me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact Me</a>
+              <a
+                class="nav-link"
+                href="about.html#contact"
+                title="Any inquiry? Here!"
+                >Contact Me</a
+              >
             </li>
           </ul>
         </div>
@@ -50,20 +71,24 @@
     <h1>Miera Azmi</h1>
     <h3>🇲🇾 Front-end developer, based in Malaysia</h3>
     <div class="navigation-links mb-5">
-      <a href="about.html#contact" class="main-link">Contact me</a>
-      <a href="about.html" class="about-link">About me</a>
+      <a href="about.html#contact" class="main-link" title="Email me anything!"
+        >Contact me</a
+      >
+      <a href="about.html" class="about-link" title="Know more about me!"
+        >About me</a
+      >
     </div>
     <div class="container">
-      <div class="row">
+      <div class="row" id="yoga-row">
         <div class="col-sm-6">
           <img
             src="images/yoga.png"
             alt="Yoga App Shot"
-            class="img-fluid rounded shadow"
+            class="img-fluid rounded shadow d-none d-sm-block"
           />
         </div>
         <div class="col-sm-6">
-          <h2 class="mb-3 text-start">Yoga App</h2>
+          <h2 class="mb-3" id="project-name">Yoga App</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse quae
             quas enim facere, asperiores iusto quidem nesciunt dolor magni
@@ -71,13 +96,15 @@
           </p>
           <br />
           <div>
-            <a href="#" class="main-link">Launch Yoga App</a>
+            <a href="#" class="main-link" title="Don't be shy! Click 😆"
+              >Launch Yoga App</a
+            >
           </div>
         </div>
       </div>
-      <div class="row mt-5">
+      <div class="row mt-5" id="weather-row">
         <div class="col-sm-6">
-          <h2 class="mb-3 text-start">Weather App</h2>
+          <h2 class="mb-3" id="project-name">Weather App</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse quae
             quas enim facere, asperiores iusto quidem nesciunt dolor magni
@@ -85,27 +112,29 @@
           </p>
           <br />
           <div class="mb-5">
-            <a href="#" class="main-link">Launch Weather App</a>
+            <a href="#" class="main-link" title="Launch, We go! Click 😆"
+              >Launch Weather App</a
+            >
           </div>
         </div>
         <div class="col-sm-6">
           <img
             src="images/weather.png"
             alt="Weather App Shot"
-            class="img-fluid rounded shadow"
+            class="img-fluid rounded shadow d-none d-sm-block"
           />
         </div>
       </div>
-      <div class="row mt-5 mb-5">
+      <div class="row mt-5 mb-5" id="yogurt-row">
         <div class="col-sm-6">
           <img
             src="images/yogurt.png"
             alt="Yogurt App Shot"
-            class="img-fluid rounded shadow"
+            class="img-fluid rounded shadow d-none d-sm-block"
           />
         </div>
         <div class="col-sm-6">
-          <h2 class="mb-3 text-start">Yogurt App</h2>
+          <h2 class="mb-3" id="project-name">Yogurt App</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse quae
             quas enim facere, asperiores iusto quidem nesciunt dolor magni
@@ -113,7 +142,7 @@
           </p>
           <br />
           <div>
-            <a href="#" class="main-link">Launch Yogurt App</a>
+            <a href="#" class="main-link" title="Click 😆">Launch Yogurt App</a>
           </div>
         </div>
       </div>

@@ -69,6 +69,10 @@ p {
   display: block;
 }
 
+#project-name {
+  text-align: left;
+}
+
 .about-paragraphs {
   margin: 30px 0;
 }
@@ -88,4 +92,48 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    margin-top: 80px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .col-sm-6 {
+    text-align: center;
+  }
+
+  #project-name {
+    text-align: center;
+  }
+
+  #yoga-row,
+  #yogurt-row {
+    margin-top: 8px !important;
+  }
+
+  #about-project-shots {
+    margin-bottom: 20px !important;
+  }
+
+  .email-link {
+    font-size: 22px;
+  }
 }
